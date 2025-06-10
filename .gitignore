@@ -1,0 +1,10 @@
+# Build artifacts
+EconomicForecasting/build/
+**/build/
+
+# Generated files
+*.png
+*.csv
+*.py
+*.log
+
