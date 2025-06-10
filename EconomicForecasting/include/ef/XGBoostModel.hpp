@@ -2,11 +2,12 @@
 #define EF_XGBOOST_MODEL_HPP
 
 #include "ForecastModel.hpp"
-#include <xgboost/c_api.h>
 #include <vector>
 #include <memory>
 
 namespace ef {
+
+using BoosterHandle = void*;
 
 class XGBoostModel : public ForecastModel {
 public:
